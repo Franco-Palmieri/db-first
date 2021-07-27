@@ -7,6 +7,6 @@ Brand           VARCHAR(50)                 NOT NULL
 Model           VARCHAR(255)                NOT NULL, UNIQUE          INDEX
 Series          SMALLINT UNSIGNED           NOT NULL
 Year            YEAR                        NOT NULL
-Price           MEDIUMINT SIGNED            NOT NULL
+Price           DECIMAL(8, 2)               NOT NULL
 Fuel            VARCHAR(50)                 NOT NULL
 Transmission    VARCHAR(50)                 NOT NULL
