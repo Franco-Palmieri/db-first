@@ -4,9 +4,9 @@ Column          Type                        Attributes                  Index
 
 Id              BIGINT UNSIGNED             NOT NULL, AUTO_INCREMENT    Primary Key
 Brand           VARCHAR(50)                 NOT NULL
-Model           VARCHAR(255)                NOT NULL, UNIVOQUE          INDEX
+Model           VARCHAR(255)                NOT NULL, UNIQUE          INDEX
 Series          SMALLINT UNSIGNED           NOT NULL
 Year            YEAR                        NOT NULL
-Value           MEDIUMINT SIGNED            NOT NULL
+Price           MEDIUMINT SIGNED            NOT NULL
 Fuel            VARCHAR(50)                 NOT NULL
 Transmission    VARCHAR(50)                 NOT NULL
