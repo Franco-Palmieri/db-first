@@ -3,8 +3,10 @@ name: cars
 Column          Type                        Attributes                  Index
 
 Id              BIGINT UNSIGNED             NOT NULL, AUTO_INCREMENT    Primary Key
-Brand           Varchar(255)                NOT NULL
-Model           Varchar(255)                NOT NULL, UNIVOQUE          INDEX
+Brand           VARCHAR(50)                 NOT NULL
+Model           VARCHAR(255)                NOT NULL, UNIVOQUE          INDEX
 Series          SMALLINT UNSIGNED           NOT NULL
-Year            Year                        NOT NULL
-
+Year            YEAR                        NOT NULL
+Value           MEDIUMINT SIGNED            NOT NULL
+Fuel            VARCHAR(50)                 NOT NULL
+Transmission    VARCHAR(50)                 NOT NULL
